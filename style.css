@@ -1,0 +1,140 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: 'Inter', sans-serif;
+	box-sizing: border-box;
+	}
+
+nav ul{
+	height: 80px;
+}
+.navItems{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	
+
+}
+.navItems :hover{
+	color: red;
+}
+
+.navItems li{
+	width: 100px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.lastItem{
+	margin-right: 50px;
+}
+
+.logo svg{
+	display: block;
+	float: left;
+	margin-left: 80px;
+	margin-top: 20px
+}
+
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	gap: 2%;
+}
+
+.mainPicture{
+	width: max(80%);
+	grid-column: span 2;
+	margin-left: 80px;
+}
+
+	
+
+.flashcard{
+	grid-row: span 2;
+	height: 60vh;
+	background-color: hsl(240, 100%, 5%);
+	padding: .5rem;
+	margin-right: 50px;
+}
+.orange{
+	color: hsl(35, 77%, 62%);
+	font-weight: 700;
+	font-size: 2rem;
+	margin: 0px;
+	padding-left:  10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	
+}
+
+.electric-cars{
+	color: hsl(36, 100%, 99%);
+	padding-bottom: 5px;
+}
+
+.ev{
+	color: hsl(236, 13%, 42%);
+	font-size: .8rem;
+	padding-bottom: 20px;
+	border-bottom: solid  hsl(236, 13%, 42%) 1px;
+}
+
+.AI{
+	color: hsl(36, 100%, 99%);
+	padding-bottom: 5px;
+	padding-top: 20px;
+}
+
+.AIeffects{
+	color: hsl(236, 13%, 42%);
+	font-size: .8rem;
+	padding-bottom: 20px;
+	border-bottom: solid  hsl(236, 13%, 42%) 1px;
+
+}
+
+.VC{
+	color: hsl(36, 100%, 99%);
+	padding-bottom: 5px;
+	padding-top: 20px;
+}
+
+.funing{
+	color: hsl(236, 13%, 42%);
+	font-size: .8rem;
+	padding-bottom: 20px;
+}
+
+.paragraph1{
+	font-size: 3rem;
+	font-weight: 800;
+	margin-left: 80px;
+	padding-bottom: 20px;
+}
+
+.paragraph2{
+	font-size: .8rem;
+	color: hsl(236, 13%, 42%);
+	line-height: 1.2rem;
+}
+
+#button{
+	margin-top: 40px;
+	font-size: 1.2rem;
+	letter-spacing: .2rem;
+	padding: 10px 30px;
+	background-color:hsl(5, 85%, 63%);
+	color: hsl(36, 100%, 99%);
+}
