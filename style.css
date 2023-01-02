@@ -64,8 +64,9 @@ nav ul{
 	grid-row: span 2;
 	height: 60vh;
 	background-color: hsl(240, 100%, 5%);
-	padding: .5rem;
-	margin-right: 50px;
+	padding: 1rem ;
+	margin-right: 30px;
+	max-width: 300px;
 }
 .orange{
 	color: hsl(35, 77%, 62%);
@@ -137,4 +138,45 @@ nav ul{
 	padding: 10px 30px;
 	background-color:hsl(5, 85%, 63%);
 	color: hsl(36, 100%, 99%);
+}
+
+.lower-Content{
+	display: flex;
+}
+
+
+.lower-Content img{
+	width: 70px;
+	height: 100px;
+
+}
+
+#computer{
+	margin-left: 80px;
+}
+
+.lower-Content-Sm{
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+
+.lower-Content-h1{
+	color:hsl(236, 13%, 42%);
+	font-size: 25px;
+	font-weight: 700;
+	padding-bottom: 7px;
+	letter-spacing: 0.1rem;
+	
+}
+
+.lower-Content-h2{
+	font-size: 15px;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+
+.lower-Content-h3{
+	color: hsl(236, 13%, 42%);
+	font-size: 13px;
 }
